@@ -1,0 +1,93 @@
+1. What is HTML?
+Ans -HTML HyperText markup language is the standard markup language used to create and structure web pages.
+
+
+2. What is the difference between HTML and HTML5?
+Ans - html is a older version and HTML5 is new version which support mordern and third party plugins.
+
+
+
+3. What are semantic tags in HTML?
+Ans - semantic tags are tags which describe  html element  clearly to developer.
+      header,nav,main section,article,footer
+
+
+4. What is the difference between <div> and <span>?
+Ans - <div> is block-level  and <span> is inline
+
+
+
+5. What is the difference between id and class?
+Ans - #id  element is unique can be used once .class element can bea used
+multiple time.
+
+
+
+6. What are block-level and inline elements?
+Ans - block-element uses the full width and continues on next line and inline element uses only 
+the content width and can add more elementsis same line.
+
+
+
+7. What is the purpose of the alt attribute?
+Ans - the alt attribute provides alternative text for an image.
+
+
+8. What are meta tags?
+Ans - meta tags provide metadata about a web page and are placed inside the <head> element.
+
+
+9. What is CSS?
+Ans - CSS (Cascading Style Sheets) is used to style HTML elements.
+
+10. What are the different ways to apply CSS?
+Ans - internal, external, inline css.
+
+
+11. Explain the CSS Box Model.
+Ans - box model is web design that treats every HTML element as a four-diamension rectangular box.
+
+
+
+12. What is the difference between Margin and Padding?
+Ans - margin is use outside border and padding used inside border
+
+
+13. What is CSS Specificity?
+Ans - algorithm browser use to determine which style rule gets applied to an HTML element when multiplerules target them
+
+14. What is the difference between display: none and visibility: hidden?
+Ans - display:none is used to hide but does not aqupies space
+  visibility:hidden is used to hide but it aqupies space in background.
+
+
+15. What is the difference between Relative, Absolute, Fixed, and Sticky positioning?
+Ans - Position: relative; is positioned relative to its normal position in  the document flow.
+     Absolute:Element is positioned relative to the nearest positioned ancestor
+     Fixed:Element is positioned relative to the viewport
+     Sticky: Toggles between a relative and fixed position, depending on the scroll position.   
+
+
+16. What is Flexbox?
+Ans - felxbox is a one diamension layout which has  display,justify-content,alig-items.
+
+
+
+17. What is CSS Grid?
+Ans - css grids is row column layout or 3-diamension layout  which has display:grid; 
+
+
+18. What is the difference between Flexbox and Grid?
+Ans - flexbox and  grid are the powerful css layout which can be used for design
+
+
+19. What is Responsive Web Design?
+Ans - responsive web design is the responsive add to the  diffrent screen size like mobile view, tablet view, deskstop view it has sytax @Media(max-width)
+
+
+
+20. What are Media Queries?
+Ans- @Media(max-width:500px) maximum width
+ @Media(min-width:700px)  minimum width
+  @Media(max-width:486px; and min-width:856px ) here both max and min are applied
+  Media Queries are use for different screen size  and according to the view media Queries are applied
