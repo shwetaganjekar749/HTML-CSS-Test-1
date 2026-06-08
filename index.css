@@ -10,7 +10,7 @@ body{
     color:#111;
 }
 
-
+/* NAVBAR */
 
 .navbar{
     height:80px;
@@ -77,6 +77,7 @@ body{
     cursor:pointer;
 }
 
+/* HERO */
 
 .hero{
     max-width:1200px;
@@ -151,7 +152,7 @@ body{
     cursor:pointer;
 }
 
-
+/* Hover Effects */
 
 .trial-btn:hover,
 .start-btn:hover{
@@ -163,7 +164,7 @@ body{
     background:#f8f8f8;
 }
 
-
+/* Responsive */
 
 @media(max-width:900px){
 

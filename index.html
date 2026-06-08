@@ -4,40 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalyst Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">
-            <span class="icon">▶</span>
-            Catalyst
-        </div>
+    <header>
+        <nav class="navbar">
 
-        <ul class="menu">
-            <li><a href="#">Performance</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">FAQ</a></li>
-        </ul>
+            <div class="logo">
+                <div class="logo-icon">▶</div>
+                <h2>Catalyst</h2>
+            </div>
 
-        <div class="buttons">
-            <button class="login">Log In</button>
-            <button class="start">Start Free</button>
-        </div>
-    </nav>
+            <ul class="nav-links">
+                <li><a href="#">Performance</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <button class="login-btn">Log In</button>
+                <button class="start-btn">Start Free</button>
+            </div>
+
+        </nav>
+    </header>
 
     <!-- Hero Section -->
     <section class="hero">
 
-        <div class="version">
-            ● v4.2 — Now with real-time sync
+        <div class="version-badge">
+            <span class="dot"></span>
+            v4.2 — Now with real-time sync
         </div>
 
         <h1>
-            The analytics platform<br>
-            built for <span>speed</span>
+            The analytics platform <br>
+            built for
+            <span class="highlight">speed</span>
         </h1>
 
         <p>
@@ -46,12 +56,12 @@
             decisions, not dashboards.
         </p>
 
-        <div class="hero-btns">
-            <button class="trial">
+        <div class="hero-buttons">
+            <button class="trial-btn">
                 Start Free Trial →
             </button>
 
-            <button class="demo">
+            <button class="demo-btn">
                 Watch Demo
             </button>
         </div>
